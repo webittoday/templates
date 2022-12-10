@@ -1,0 +1,108 @@
+.contactInfo{
+   padding-top: 10vh;
+   padding-bottom: 7vh;
+   text-align: center;
+   h1{
+    color: black;
+    font-size: 40px;
+   }
+   .line{
+    height: 2px;
+    width: 100%;
+    max-width: 130px;
+    margin: 20px auto;
+    background-color:rgb(22, 194, 191);;
+
+   }
+}
+.contact__info__back{
+    width: 100%;
+    height: auto;
+    background:
+    url('../images/about-bg-shape.svg') no-repeat center / cover;
+}
+.contact__info__grid {
+    // display: flex;
+    align-items: center;
+    justify-content: center;
+    .contact__info__text{
+        margin-top: 100px;
+        width: 100%;
+        max-width: 940px;
+        text-align: center;
+        // padding-right: 50px;
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 17px;
+        }
+        .dp_img_text{
+            display: flex;
+            align-items: center center;
+            img{
+                width: 80px;
+                padding-right: 10px;
+            }
+            h1{
+                font-size: 20px;
+                margin-top: 5px;
+                color:  rgb(22, 194, 191);
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+    .contact__info__card{
+        padding: 20px;
+        width: 100%;
+        max-width: 400px;
+        height: 500px;
+        margin-top: 50px;
+        border: 1.5px solid rgb(22, 194, 191);
+        h1{
+            text-align: center;
+            font-size: 28px;
+            color:  rgb(22, 194, 191);
+            padding-bottom: 14px;
+        }
+        .time__slot{
+            display: flex;
+            padding-top: 12px;
+            justify-content: space-between;
+            border-bottom: 1px dashed
+        }
+        .contact__card__phone{
+            display: flex;
+            img{
+                margin-top: 7px;
+                align-items: center;
+                width: 70px;
+                padding-right: 10px;
+            }
+            P{
+                text-align: center;
+                margin-top: 5px;
+            }
+            h1{
+                text-align: center;
+                font-size: 17px;
+                padding-top: -10px;
+            }
+        }
+    }
+    margin: auto;
+}
+
+.contact_info_card {
+
+    border: 1.5px solid rgb(22, 194, 191);
+
+}
+
+@media screen and (max-width: 900px){
+    .contact__info__card{
+        flex-direction: column;
+    }
+}
