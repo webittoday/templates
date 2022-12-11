@@ -1,0 +1,26 @@
+.faq{
+    background-color: #333A3D;
+    padding-bottom: 9vh;
+}
+.faq__grid{
+    display: flex;
+    background-color: #333A3D;
+   .faq__box{
+    h3{
+        margin-top: 30px;
+        font-size: 21.5px;
+        color:  #c82232;
+    }
+    p{
+        color: white;
+        font-size: 16px;
+    }
+   }
+}
+
+// responsive
+@media screen and (max-width:650px){
+    .faq__grid{
+        flex-direction: column;
+    }
+}
