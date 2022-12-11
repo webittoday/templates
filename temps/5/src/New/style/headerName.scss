@@ -1,0 +1,33 @@
+.headerName{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10.5vh;
+    padding-bottom: 3.5vh;
+    background-color: #333A3D;
+    h1{
+        font-size: 36px;
+        color:  #c82232;
+        padding-top: 15px;
+        font-weight: 600;
+    }
+    p{
+        padding-top: 0px;
+        font-size: 17px;
+        color:white;
+        font-weight: 400;
+    }
+
+}
+// responsive
+@media screen and (max-width:650px){
+    .headerName{
+        h1{
+            font-size: 32px;
+        }
+        p{
+            font-size: 15.5px;
+        }
+    
+    }
+}

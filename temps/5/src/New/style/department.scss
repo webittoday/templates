@@ -1,0 +1,121 @@
+.Team__headerName{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 4.5vh;
+    padding-bottom: 7.5vh;
+    h1{
+        font-size: 36px;
+        color:  #c82232;
+        padding-top: 13px;
+        font-weight: 600;
+    }
+    p{
+        padding-top: 13px;
+        font-size: 16.5px;
+        color:white;
+        font-weight: 400;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+}
+// responsive
+@media screen and (max-width:650px){
+    .headerName{
+        h1{
+            font-size: 32px;
+        }
+        p{
+            font-size: 15.5px;
+        }
+    
+    }
+}
+
+.team{
+    width: 100%;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    background-color: #222A2E;
+    .team__grid{
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        .team__box{
+            width: 100%;
+            max-width: 350px;
+            margin: 0 auto;
+            img{
+                border-radius: 50%;
+                border: 9px solid #1d2022;
+                width: 240px;
+            }
+            h5{
+                font-size: 22px;
+                padding-top: 15px;
+                color: #c82232;
+            }
+            span{
+                color: white;
+                font-size: 17px;
+                font-style: italic;
+            }
+            .team__line{
+                height: 2px;
+                width: 50px;
+                background-color: #1E90FF;
+                max-width: 50px;
+                margin: 10px auto;
+            }
+            p{
+                padding-top: 6px;
+                font-size: 17px;
+                color: white;
+            }
+            .team__social__icon{
+                max-width: 110px;
+                margin: 14px auto;
+                display: flex;
+                justify-content: space-between;
+                .social__1{
+                    height: 30px;
+                    border-radius: 50%;
+                    padding: 4.5px;
+                    width: 30px;
+                    background-color: #1E90FF;
+                }
+                .social__2{
+                    height: 30px;
+                    border-radius: 50%;
+                    padding: 4.5px;
+                    width: 30px;
+                    background-color: #EA4C89;
+                }
+                .social__3{
+                    height: 30px;
+                    border-radius: 50%;
+                    padding: 4.5px;
+                    width: 30px;
+                    background-color: #3B5998;
+                }
+            }
+        }
+    }
+}
+
+//responsive
+
+
+
+@media screen and (max-width:650px){
+    .team{
+        .team__grid{
+            flex-direction: column;
+            .team__box{
+                margin-top:50px;
+            }
+    }
+}
+  }
+

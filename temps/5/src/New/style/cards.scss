@@ -1,0 +1,43 @@
+.card__back{
+  width: 100%;
+  background-color: #333A3D;
+  padding-top: 5vh;
+  padding-bottom: 9vh;
+  .cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    .card{
+        background-color: #333A3D;
+        outline:none;
+        border: none;
+        max-width: 370px;
+        margin: 0 auto;
+        h5{
+            font-size: 23px;
+            color: #c82232;
+        }
+        p{
+            font-size: 16px;
+            color: white;
+        }
+        .icon{
+            width: 100%;
+            max-width: 100px;
+            margin: 14px auto;
+            color: #c82232;
+        }
+    }
+  }
+}
+
+
+@media screen and (max-width: 500px){
+    .cards{
+        flex-direction: column;
+        .card{
+          margin-top: 65px;
+        }
+      }
+}
