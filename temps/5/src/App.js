@@ -43,7 +43,6 @@ function App() {
       <Cards />
       <Utility />
       <WhitePaper />
-
       <FAQ />
       <ContactUS />
     </div>
