@@ -1,15 +1,5 @@
 questions = [
 
-    {"QUESTION":"לינק לוגו כותרת", "VARNAME": "logoLinkTitle", "type": "textarea"},
-    {"QUESTION":"לינק ראשון כותרת", "VARNAME": "titleLink1", "type": "textarea"},
-    {"QUESTION":"לינק שני כותרת", "VARNAME": "titleLink2", "type": "textarea"},
-    {"QUESTION":"לינק שלישי כותרת", "VARNAME": "titleLink3", "type": "textarea"},
-    {"QUESTION":"לינק רביעי כותרת", "VARNAME": "titleLink4", "type": "textarea"},
-    {"QUESTION":"לינק חמישי כותרת", "VARNAME": "titleLink5", "type": "textarea"},
-    {"QUESTION":"לינק שישי כותרת", "VARNAME": "titleLink6", "type": "textarea"},
-    {"QUESTION":"לינק ימין כותרת", "VARNAME": "titleLinkRight", "type": "textarea"},
-  
-  
     {"QUESTION":" כותרת ", "VARNAME": "title", "type": "textarea"},
     {"QUESTION":" ברוכים הבאים ", "VARNAME": "welcome", "type": "textarea"},
     {"QUESTION":"גלה עוד", "VARNAME": "discoverMore", "type": "textarea"},
@@ -32,18 +22,9 @@ questions = [
     {"QUESTION": "טקסט צאק שלישי", "VARNAME": "check3", "type": "textarea"},
     {"QUESTION": "גלה עוד אודות", "VARNAME": "discoverMoreAbout", "type": "textarea"},
  
-    {"QUESTION": "כותרת גלריה", "VARNAME": "insHeader", "type": "textarea"},
-    {"QUESTION": "כותרת גלריה משנית", "VARNAME": "insParagraph", "type": "textarea"},
-    {"QUESTION": "טקסט תחתית הדף", "VARNAME": "insFooter", "type": "textarea"},
+
     {"QUESTION": "תמונות לגלריה", "VARNAME": "galleryurl", "type": "image", "limit": 8, "dimension": "270x140"},
-    {"QUESTION": "טקסט בגב התמונה הראשונה", "VARNAME": "insImaTitle0", "type": "textarea"},
-    {"QUESTION": "טקסט בגב התמונה השנייה", "VARNAME": "insImaTitle1", "type": "textarea"},
-    {"QUESTION": "טקסט בגב התמונה השלישית", "VARNAME": "insImaTitle2", "type": "textarea"},
-    {"QUESTION": "טקסט בגב התמונה הרביעית", "VARNAME": "insImaTitle3", "type": "textarea"},
-    {"QUESTION": "טקסט בגב התמונה החמישית", "VARNAME": "insImaTitle4", "type": "textarea"},
-    {"QUESTION": "טקסט בגב התמונה השישית", "VARNAME": "insImaTitle5", "type": "textarea"},
-    {"QUESTION": "טקסט בגב התמונה השביעית", "VARNAME": "insImaTitle6", "type": "textarea"},
-    {"QUESTION": "טקסט בגב התמונה השמינית", "VARNAME": "insImaTitle7", "type": "textarea"},
+
   
 
     {"QUESTION": "כותרת הצוות שלנו", "VARNAME": "teamHeader", "type": "textarea"},
@@ -71,12 +52,7 @@ questions = [
 
     {"QUESTION": "כותרת צור קשר", "VARNAME": "contactHeader", "type": "textarea"},
     {"QUESTION": "כותרת משנית צור קשר", "VARNAME": "contactPara", "type": "textarea"},
-    {"QUESTION": "כתובת", "VARNAME": "contactAddress", "type": "textarea"},
-    {"QUESTION": "טלפון", "VARNAME": "contactPhone", "type": "textarea"},
-    {"QUESTION":"אימייל", "VARNAME": "contactemail", "type": "textarea"},
     {"QUESTION":"אתר אינטרנט", "VARNAME": "contactWebSite", "type": "textarea"},
-    {"QUESTION":"טופס שם מלא", "VARNAME": "formEmail", "type": "textarea"},
-    {"QUESTION":"טופס אימייל", "VARNAME": "formSubject", "type": "textarea"},
     {"QUESTION":"טופס נושא", "VARNAME": "formMessage", "type": "textarea"},
     {"QUESTION":"טופס הודעה", "VARNAME": "formFullName", "type": "textarea"},
     {"QUESTION":"טופס כפתור", "VARNAME": "ButtonGET", "type": "textarea"},
@@ -84,16 +60,8 @@ questions = [
 ]
 
 
-replacements = [
 
-    {"KEYWORD": "INSERTLOGOLINK", "VARNAME": "logoLinkTitle", "SRC": "src/New/components/NavBar.js"},
-    {"KEYWORD": "INSERTLINKHEDER1", "VARNAME": "titleLink1", "SRC": "src/New/components/NavBar.js"},
-    {"KEYWORD": "INSERTLINKHEDER2", "VARNAME": "titleLink2", "SRC": "src/New/components/NavBar.js"},
-    {"KEYWORD": "INSERTLINKHEDER3", "VARNAME": "titleLink3", "SRC": "src/New/components/NavBar.js"},
-    {"KEYWORD": "INSERTLINKHEDER4", "VARNAME": "titleLink4", "SRC": "src/New/components/NavBar.js"},
-    {"KEYWORD": "INSERTLINKHEDER5", "VARNAME": "titleLink5", "SRC": "src/New/components/NavBar.js"},
-    {"KEYWORD": "INSERTLINKHEDER6", "VARNAME": "titleLink6", "SRC": "src/New/components/NavBar.js"},
-    {"KEYWORD": "INSERTLINKHEDERRIGHT", "VARNAME": "titleLinkRight", "SRC": "src/New/components/NavBar.js"},
+replacements = [
 
 
     {"KEYWORD": "INSERTHEADER", "VARNAME": "title", "SRC": "src/New/components/HeaderSection.js"},
@@ -118,32 +86,7 @@ replacements = [
     {"KEYWORD": "INSERTDISCOVERMOREABOUT", "VARNAME": "discoverMoreAbout", "SRC": "src/New/components/Utility.js"},
 
 
-    {"KEYWORD": "INSERTINTHEADER", "VARNAME": "insHeader", "SRC": "src/New/components/WhitePaper.js"},
-    {"KEYWORD": "INSERTINTPARAGRAPH", "VARNAME": "insParagraph", "SRC": "src/New/components/WhitePaper.js"},
-    {"KEYWORD": "INSERTIMGTITLE0", "VARNAME": "insImaTitle0", "SRC": "src/New/components/WhitePaper.js"},
-    {"KEYWORD": "INSERTIMGTITLE1", "VARNAME": "insImaTitle1", "SRC": "src/New/components/WhitePaper.js"},
-    {"KEYWORD": "INSERTIMGTITLE2", "VARNAME": "insImaTitle2", "SRC": "src/New/components/WhitePaper.js"},
-    {"KEYWORD": "INSERTIMGTITLE3", "VARNAME": "insImaTitle3", "SRC": "src/New/components/WhitePaper.js"},
-    {"KEYWORD": "INSERTIMGTITLE4", "VARNAME": "insImaTitle4", "SRC": "src/New/components/WhitePaper.js"},
-    {"KEYWORD": "INSERTIMGTITLE5", "VARNAME": "insImaTitle5", "SRC": "src/New/components/WhitePaper.js"},
-    {"KEYWORD": "INSERTIMGTITLE6", "VARNAME": "insImaTitle6", "SRC": "src/New/components/WhitePaper.js"},
-    {"KEYWORD": "INSERTIMGTITLE7", "VARNAME": "insImaTitle7", "SRC": "src/New/components/WhitePaper.js"},
-    {"KEYWORD": "INSERTFOOTER", "VARNAME": "insFooter", "SRC": "src/New/components/WhitePaper.js"},
-
     {"KEYWORD": "GALLERY", "VARNAME": "galleryurl", "SRC": "src/New/components/WhitePaper.js"},
-
-
-    {"KEYWORD": "INSERTTEAMHEADER", "VARNAME": "teamHeader", "SRC": "src/New/components/Department.js"},
-    {"KEYWORD": "INSERTTEMPARAGRAPH", "VARNAME": "teamParagraph", "SRC": "src/New/components/Department.js"},
-    {"KEYWORD": "INSERTTEAM1", "VARNAME": "tameName1", "SRC": "src/New/components/Department.js"},
-    {"KEYWORD": "INSERTTEAM2", "VARNAME": "tameName2", "SRC": "src/New/components/Department.js"},
-    {"KEYWORD": "INSERTTEAM3", "VARNAME": "tameName3", "SRC": "src/New/components/Department.js"},
-    {"KEYWORD": "INSERTTEMPARAGRAPH1", "VARNAME": "tameTeam__paragraph1", "SRC": "src/New/components/Department.js"},
-    {"KEYWORD": "INSERTTEMPARAGRAPH2", "VARNAME": "tameTeam__paragraph2", "SRC": "src/New/components/Department.js"},
-    {"KEYWORD": "INSERTTEMPARAGRAPH3", "VARNAME": "tameTeam__paragraph3", "SRC": "src/New/components/Department.js"},
-    {"KEYWORD": "INSERTTEMSPAN1", "VARNAME": "tameSpan1", "SRC": "src/New/components/Department.js"},
-    {"KEYWORD": "INSERTTEMSPAN2", "VARNAME": "tameSpan2", "SRC": "src/New/components/Department.js"},
-    {"KEYWORD": "INSERTTEMSPAN3", "VARNAME": "tameSpan3", "SRC": "src/New/components/Department.js"},
 
 
 
