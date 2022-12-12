@@ -1,0 +1,89 @@
+.law__header {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgb(0, 0, 0)), url("../images/sebastian-pichler-bAQH53VquTc-unsplash.jpg") no-repeat center/cover;
+}
+.law__header .law__text {
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+  padding-top: 20vh;
+  text-align: center;
+}
+.law__header .law__text img {
+  width: 550px;
+}
+.law__header .law__text h1 {
+  color: white;
+  font-size: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.law__header .law__text .line {
+  width: 100%;
+  height: 0.2px;
+  background-color: #CF9455;
+}
+.law__header .law__text p {
+  color: white;
+  font-size: 15.5px;
+  padding-top: 10px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 550px) {
+  .law__header .law__text {
+    max-width: 310px;
+    padding-top: 25vh;
+  }
+  .law__header .law__text img {
+    width: 310px;
+  }
+  .law__header .law__text h1 {
+    font-size: 35px;
+  }
+}
+.law__icon__grid__back {
+  margin-top: 70px;
+  background-color: #333A4D;
+}
+
+.law__icon__grid {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-left: -10px;
+  align-items: center;
+}
+.law__icon__grid .law__icon__box {
+  width: 100%;
+  margin-left: 10px;
+  color: white;
+  text-align: center;
+}
+.law__icon__grid .law__icon__box h1 {
+  padding-top: 18px;
+  font-size: 20.5px;
+  color: white;
+}
+
+.law__line {
+  width: 2px;
+  background-color: gray;
+  height: 140px;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 650px) {
+  .law__icon__grid {
+    flex-direction: column;
+  }
+  .law__icon__grid .law__icon__box {
+    padding-top: 9vh;
+  }
+  .law__line {
+    display: none;
+  }
+}/*# sourceMappingURL=header.css.map */
