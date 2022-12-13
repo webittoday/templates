@@ -1,5 +1,6 @@
 questions = [
 
+
     {"QUESTION": "כותרת מסך הבית", "VARNAME": "title", "type": "textarea"},
     {"QUESTION": "כותרת לקטע מידע", "VARNAME": "titleSubCards", "type": "textarea"},
     {"QUESTION": "כותרת לקטע מידע ראשון",
@@ -22,10 +23,14 @@ questions = [
 
 ]
 
+
+]
+
 replacements = [
 
     {"KEYWORD": "INSERTNAME", "VARNAME": "business_name", "SRC": "public/index.html"},
     {"KEYWORD": "INSERTLOGO", "VARNAME": "logourl", "SRC": "public/index.html"},
+
     {"KEYWORD": "INSERTHEADER", "VARNAME": "title",
         "SRC": "src/New/components/HeaderSection.js"},
     {"KEYWORD": "INSERTHEADERWELCOME", "VARNAME": "slogan",
@@ -58,4 +63,5 @@ replacements = [
         "SRC": "src/New/components/ContactUS.js"},
     {"KEYWORD": "GALLERYCONTACT", "VARNAME": "picContact",
         "SRC": "src/New/components/ContactUS.js"},
+
 ]
