@@ -11,7 +11,6 @@ function ContactUS() {
     document.getElementById("email").innerHTML = "INSERTEMAIL";
     document.getElementById("Website").innerHTML = "INSERTWEB";
     document.getElementById("EMAILADDRESS").innerHTML = "INSERTEMAILADDRESS";
-    document.getElementById("SUBJECT").innerHTML = "INSERTSUBJECT";
     document.getElementById("MESSAGE").innerHTML = "INSERTMESSAGE";
     document.getElementById("GetStartedButton").innerHTML =
       "INSERTGETSTARTEDBUTTON";
