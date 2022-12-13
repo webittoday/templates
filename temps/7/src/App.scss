@@ -1,0 +1,22 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,800;1,800&display=swap');
+@import "./scss/home";
+@import "./scss/navbar.scss";
+
+#root {
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  
+  flex: 1 0 auto;
+}
