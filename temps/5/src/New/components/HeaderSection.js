@@ -19,11 +19,8 @@ function HeaderSection() {
     //here is the main container with background picture
     <div class="home" id="link1">
       <div className="home__text" data-aos="fade-up" data-aos-duration="800">
-        <h1 id="switchHeader">Best Tattoo Shop In Town</h1>
-        <p id="switchWelcomeHeader">
-          {" "}
-          Welcome to the best tattoo shop in the heart of Brooklyn.
-        </p>
+        <h1 id="switchHeader"></h1>
+        <p id="switchWelcomeHeader"></p>
         <button className="home__button">Discover More</button>
       </div>
     </div>

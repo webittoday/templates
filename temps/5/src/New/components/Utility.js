@@ -25,11 +25,7 @@ function Utility() {
           data-aos-duration="800"
         >
           <h5>Discover our story</h5>
-          <p id="switchHederParagraph">
-            Velis demo enim ipsam voluptatem quia voluptas sit aspernatures
-            netsum norems fugit, seditum netis velas matrix net nesciunt neque
-            etsum quis autem velis reprehenderit etsim.
-          </p>
+          <p id="switchHederParagraph"></p>
           <br />
           <br />
           <br />
