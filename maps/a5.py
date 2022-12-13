@@ -1,4 +1,3 @@
-import requests
 questions = [
 
     {"QUESTION": "כותרת מסך הבית", "VARNAME": "title", "type": "textarea"},
