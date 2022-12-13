@@ -1,6 +1,5 @@
 questions = [
 
-    {"QUESTION": "פסקת תיאור", "VARNAME": "slogan", "type": "textarea"},
     {"QUESTION": "תוכן לדף אודות", "VARNAME": "about", "type": "textarea"},
     {"QUESTION": "תמונות רקע", "VARNAME": "sliderurl", "type": "image", "limit": 1, "dimension": "1920x950"},
     {"QUESTION": "לוגו", "VARNAME": "logourl", "type": "image", "limit": 1, "dimension": "150x150"},
@@ -26,10 +25,8 @@ replacements = [
 
     {"KEYWORD": "INSERTNAME", "VARNAME": "business_name", "SRC": "src/App.js"},
     {"KEYWORD": "INSERTSLOGAN", "VARNAME": "slogan", "SRC": "src/App.js"},
-    {"KEYWORD": "INSERTNAME", "VARNAME": "business_name", "SRC": "public/index.html"},
     {"KEYWORD": "INSERTLOGO", "VARNAME": "logourl", "SRC": "public/index.html"},
     {"KEYWORD": "INSERTABOUT", "VARNAME": "about", "SRC": "src/App.js"},
-    {"KEYWORD": "INSERTLOGO", "VARNAME": "logourl", "SRC": "src/App.js"},
     {"KEYWORD": "INSERTCELL", "VARNAME": "cell", "SRC": "src/App.js"},
     {"KEYWORD": "INSERTMAIL", "VARNAME": "email", "SRC": "src/App.js"},
     {"KEYWORD": "INSERTADDRESS", "VARNAME": "address", "SRC": "src/App.js"},

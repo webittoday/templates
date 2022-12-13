@@ -27,18 +27,6 @@ questions = [
 
   
 
-    {"QUESTION": "כותרת הצוות שלנו", "VARNAME": "teamHeader", "type": "textarea"},
-    {"QUESTION": "כותרת משנה", "VARNAME": "teamParagraph", "type": "textarea"},
-    {"QUESTION": "שם עובד ראשון " "VARNAME": "tameName1", "type": "textarea"},
-    {"QUESTION": "שם עובד שני ", "VARNAME": "tameName2", "type": "textarea"},
-    {"QUESTION": "שם עובד שלישי ", "VARNAME": "tameName3", "type": "textarea"},
-    {"QUESTION": "תיאור עובד ראשון", "VARNAME": "tameTeam__paragraph1", "type": "textarea"},
-    {"QUESTION": "תיאור עובד שני", "VARNAME": "tameTeam__paragraph2", "type": "textarea"},
-    {"QUESTION": "תיאור עובד שלישי" "VARNAME": "tameTeam__paragraph3", "type": "textarea"},
-    {"QUESTION": "תפקיד עובד ראשון ", "VARNAME": "tameSpan1", "type": "textarea"},
-    {"QUESTION":"תפקיד עובד שני ", "VARNAME": "tameSpan2", "type": "textarea"},
-    {"QUESTION": "תפקיד עובד שלישי ", "VARNAME": "tameSpan3", "type": "textarea"},
-
     {"QUESTION": "כותרת שאלות נפוצות", "VARNAME": "faqHeader", "type": "textarea"},
     {"QUESTION": "כותרת משנה שאלות נפוצות", "VARNAME": "faqparagraph", "type": "textarea"},
     {"QUESTION": "שאלה ראשונה" "VARNAME": "faqBoxHedear1", "type": "textarea"},
@@ -111,8 +99,8 @@ replacements = [
     {"KEYWORD": "INSERTEMAILADDRESS", "VARNAME": "formEmail", "SRC": "src/New/components/ContactUS.js"},
     {"KEYWORD": "INSERTSUBJECT", "VARNAME": "formSubject", "SRC": "src/New/components/ContactUS.js"},
     {"KEYWORD": "INSERTMESSAGE", "VARNAME": "formMessage", "SRC": "src/New/components/ContactUS.js"},
-    {"KEYWORD": "INSERTMESSAGE", "VARNAME": "formFullName", "SRC": "src/New/components/ContactUS.js"},
-    {"KEYWORD": "INSERTGETSTARTEDBUTTON", "ButtonGET": "faqBoxtext4", "SRC": "src/New/components/ContactUS.js"},
+    {"KEYWORD": "INSERTFULLNAME", "VARNAME": "formFullName", "SRC": "src/New/components/ContactUS.js"},
+    {"KEYWORD": "INSERTGETSTARTEDBUTTON", "VARNAME": "ButtonGET", "SRC": "src/New/components/ContactUS.js"},
 
     {"KEYWORD": "GALLERYCONTACT", "VARNAME": "gallerContact","SRC": "src/New/components/ContactUS.js"},
 
