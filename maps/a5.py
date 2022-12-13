@@ -10,7 +10,7 @@ questions = [
     {"QUESTION":"קטע מידע שלישי", "VARNAME": "cardParagraph3", "type": "textarea"},
     {"QUESTION":"תוכן לדף אודות", "VARNAME": "paragraphAbout", "type": "textarea"},
     {"QUESTION": "תמונות לגלריה", "VARNAME": "galleryurl", "type": "image", "limit": 8, "dimension": "270x140"},
-    {"QUESTION":"כתובת אתר האינטרנט" "VARNAME": "contactWebSite", "type": "textarea"},
+    {"QUESTION":"כתובת אתר האינטרנט", "VARNAME": "contactWebSite", "type": "textarea"},
 ]
 
 
