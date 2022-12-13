@@ -26,6 +26,7 @@ replacements = [
     {"KEYWORD": "INSERTNAME", "VARNAME": "business_name", "SRC": "src/App.js"},
     {"KEYWORD": "INSERTSLOGAN", "VARNAME": "slogan", "SRC": "src/App.js"},
     {"KEYWORD": "INSERTLOGO", "VARNAME": "logourl", "SRC": "public/index.html"},
+    {"KEYWORD": "INSERTNAME", "VARNAME": "business_name", "SRC": "public/index.html"},
     {"KEYWORD": "INSERTABOUT", "VARNAME": "about", "SRC": "src/App.js"},
     {"KEYWORD": "INSERTCELL", "VARNAME": "cell", "SRC": "src/App.js"},
     {"KEYWORD": "INSERTMAIL", "VARNAME": "email", "SRC": "src/App.js"},
