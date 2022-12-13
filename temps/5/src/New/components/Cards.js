@@ -6,13 +6,12 @@ import { RiLightbulbFlashLine } from "react-icons/ri";
 function Cards() {
   useEffect(() => {
     // 👇️ use document.getElementById()
-    document.getElementById("switchHederCards").innerHTML = "INSERTHEADERCARDS";
     document.getElementById("switchSubHederCards").innerHTML =
       "INSERTSUBHEADERCARDS";
 
     document.getElementById("cardTitle1").innerHTML = "INSERTCARTHEADER1";
     document.getElementById("cardTitle2").innerHTML = "INSERTCARTHEADER2";
-    document.getElementById("cardTitle4").innerHTML = "INSERTCARTHEADER3";
+    document.getElementById("cardTitle3").innerHTML = "INSERTCARTHEADER3";
 
     document.getElementById("cardP1").innerHTML = "INSERTCARDPARAGRAPH1";
     document.getElementById("cardP2").innerHTML = "INSERTCARDPARAGRAPH2";

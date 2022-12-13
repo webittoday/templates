@@ -14,7 +14,7 @@ function WhitePaper() {
         data-aos-duration="800"
       >
         <h1>Our Work</h1>
-        <p>Quis autem velis ets reprehendet voluptate.</p>
+        <p>Some pictures from recent works.</p>
       </div>
 
       <div
@@ -67,9 +67,6 @@ function WhitePaper() {
           />
         </div>
       </div>
-      <p id="footerPaper">
-        Like what you see? Follow us <span> @brooklyn-tattos</span>
-      </p>
     </div>
   );
 }

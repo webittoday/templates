@@ -4,17 +4,11 @@ import { AiOutlineRight } from "react-icons/ai";
 function ContactUS() {
   useEffect(() => {
     // 👇️ use document.getElementById()
-    document.getElementById("contactHeader").innerHTML = "INSERTCONTACTHEADER";
-    document.getElementById("contactSubHeader").innerHTML = "INSERTCONTACTPARA";
+
     document.getElementById("address").innerHTML = "INSERTEDDRESS";
     document.getElementById("phone").innerHTML = "INSERTPHOME";
     document.getElementById("email").innerHTML = "INSERTEMAIL";
     document.getElementById("Website").innerHTML = "INSERTWEB";
-    document.getElementById("EMAILADDRESS").innerHTML = "INSERTEMAILADDRESS";
-    document.getElementById("MESSAGE").innerHTML = "INSERTMESSAGE";
-    document.getElementById("GetStartedButton").innerHTML =
-      "INSERTGETSTARTEDBUTTON";
-    document.getElementById("fullName").innerHTML = "INSERTFULLNAME";
   }, []);
 
   const PICTURES = GALLERYCONTACT;
@@ -32,9 +26,6 @@ function ContactUS() {
               <h2 className="heading-section" id="contactHeader">
                 Book An Appointment
               </h2>
-              <p className="heading__para" id="contactSubHeader">
-                Quis autem velis ets reprehender nets quiste voluptate.
-              </p>
             </div>
           </div>
           <div

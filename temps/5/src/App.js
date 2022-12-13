@@ -8,7 +8,6 @@ import ContactUS from "./New/components/ContactUS";
 import { Route } from "react-router-dom";
 import WhitePaper from "./New/components/WhitePaper";
 
-import FAQ from "./New/components/FAQ";
 import Cards from "./New/components/Cards";
 import HeaderName from "./New/components/HeaderName";
 import Testimonial from "./New/components/Testimonial";
@@ -43,7 +42,6 @@ function App() {
       <Cards />
       <Utility />
       <WhitePaper />
-      <FAQ />
       <ContactUS />
     </div>
   );

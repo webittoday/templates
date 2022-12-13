@@ -13,8 +13,6 @@ function HeaderSection() {
     document.getElementById("switchHeader").innerHTML = "INSERTHEADER";
     document.getElementById("switchWelcomeHeader").innerHTML =
       "INSERTHEADERWELCOME";
-    document.getElementById("switchDiscoverMore").innerHTML =
-      "INSERTDISCOVERMORE";
   }, []);
 
   return (
@@ -26,9 +24,7 @@ function HeaderSection() {
           {" "}
           Welcome to the best tattoo shop in the heart of Brooklyn.
         </p>
-        <button className="home__button" id="discoverMore">
-          Discover More
-        </button>
+        <button className="home__button">Discover More</button>
       </div>
     </div>
   );
