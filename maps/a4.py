@@ -46,6 +46,7 @@ replacements = [
     {"KEYWORD": "INSERTFRIDAY", "VARNAME": "friday", "SRC": "src/App.js"},
     {"KEYWORD": "INSERTSATURDAY", "VARNAME": "saturday", "SRC": "src/App.js"},
     {"KEYWORD": "INSERTBACKGROUND", "VARNAME": "sliderurl", "SRC": "src/New/style/header.css"},
+    {"KEYWORD": "INSERTBACKGROUND", "VARNAME": "sliderurl", "SRC": "src/New/style/header.scss"},
     {"KEYWORD": "GALLERY", "VARNAME": "galleryurl", "SRC": "src/New/components/Gallery.js"},
     
 ]
