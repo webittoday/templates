@@ -3,8 +3,8 @@ import '../style/ContactUS.scss'
 function ContactUS() {
   return (
     <div className='contact__page'>
-       <h1>?רוצים להשאיר פרטים</h1>
-       <p>?רוצים לבקר אותנו</p>
+       <h1>השאירו לנו פרטים</h1>
+       <p>ואנחנו נחזור אליכם</p>
        <span id = "switchaddress"></span>
        <br />
        <span id = "switchcity"></span>

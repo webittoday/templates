@@ -25,7 +25,9 @@ replacements = [
 
     {"KEYWORD": "INSERTNAME", "VARNAME": "business_name", "SRC": "src/App.js"},
     {"KEYWORD": "INSERTSLOGAN", "VARNAME": "slogan", "SRC": "src/App.js"},
+    {"KEYWORD": "INSERTLOGO", "VARNAME": "logourl", "SRC": "src/App.js"},
     {"KEYWORD": "INSERTLOGO", "VARNAME": "logourl", "SRC": "public/index.html"},
+    {"KEYWORD": "INSERTNAME", "VARNAME": "business_name", "SRC": "public/index.html"},
     {"KEYWORD": "INSERTABOUT", "VARNAME": "about", "SRC": "src/App.js"},
     {"KEYWORD": "INSERTCELL", "VARNAME": "cell", "SRC": "src/App.js"},
     {"KEYWORD": "INSERTMAIL", "VARNAME": "email", "SRC": "src/App.js"},
@@ -45,6 +47,7 @@ replacements = [
     {"KEYWORD": "INSERTFRIDAY", "VARNAME": "friday", "SRC": "src/App.js"},
     {"KEYWORD": "INSERTSATURDAY", "VARNAME": "saturday", "SRC": "src/App.js"},
     {"KEYWORD": "INSERTBACKGROUND", "VARNAME": "sliderurl", "SRC": "src/New/style/header.css"},
+    {"KEYWORD": "INSERTBACKGROUND", "VARNAME": "sliderurl", "SRC": "src/New/style/header.scss"},
     {"KEYWORD": "GALLERY", "VARNAME": "galleryurl", "SRC": "src/New/components/Gallery.js"},
     
 ]
