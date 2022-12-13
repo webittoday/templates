@@ -1,10 +1,7 @@
 import React from "react";
 import "../style/Gallery.scss";
 function Gallery() {
-  const PICTURES = [
-    "https://cdn.pixabay.com/photo/2022/12/02/18/37/middle-spotted-woodpecker-7631440_960_720.jpg",
-    "https://cdn.pixabay.com/photo/2022/12/07/16/07/palm-7641522_960_720.jpg",
-  ];
+  const PICTURES = GALLERY;
 
   return (
     <div className="gallery__top container">
