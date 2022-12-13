@@ -28,9 +28,7 @@ function Cards() {
         data-aos-duration="800"
       >
         <h1 id="switchHederCards">Why Choose Us</h1>
-        <p id="switchSubHederCards">
-          The best place to get a tattoo in New York.
-        </p>
+        <p id="switchSubHederCards"></p>
       </div>
 
       <div className="cards container">
@@ -38,36 +36,27 @@ function Cards() {
         <div className="card" data-aos="fade-right" data-aos-duration="800">
           <RiLightbulbFlashLine className="icon" size={70} />
           {/* heading */}
-          <h5 id="cardTitle1">Qualified Personnel</h5>
+          <h5 id="cardTitle1"></h5>
           {/* paragraph */}
-          <p id="cardP1">
-            Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae
-            etsum nisle varius netsum.
-          </p>
+          <p id="cardP1"></p>
         </div>
 
         {/* cards grid */}
         <div className="card">
           <RiLightbulbFlashLine className="icon" size={70} />
           {/* heading */}
-          <h5 id="cardTitle2">Qualified Personnel</h5>
+          <h5 id="cardTitle2">Q</h5>
           {/* paragraph */}
-          <p id="cardP2">
-            Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae
-            etsum nisle varius netsum.
-          </p>
+          <p id="cardP2"></p>
         </div>
 
         {/* cards grid */}
         <div className="card" data-aos="fade-left" data-aos-duration="800">
           <RiLightbulbFlashLine className="icon" size={70} />
           {/* heading */}
-          <h5 id="cardTitle3"> Qualified Personnel</h5>
+          <h5 id="cardTitle3"></h5>
           {/* paragraph */}
-          <p id="cardP3">
-            Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae
-            etsum nisle varius netsum.
-          </p>
+          <p id="cardP3"></p>
         </div>
       </div>
     </div>

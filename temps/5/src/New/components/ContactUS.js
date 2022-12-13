@@ -42,10 +42,7 @@ function ContactUS() {
                         <span className="fa fa-map-marker" />
                       </div>
                       <div className="text">
-                        <p id="address">
-                          <span>Address:</span> 198 West 21th Street, Suite 721
-                          New York NY 10016
-                        </p>
+                        <p id="address"></p>
                       </div>
                     </div>
                   </div>
@@ -57,9 +54,7 @@ function ContactUS() {
                       <div className="text">
                         <p>
                           <span>Phone:</span>{" "}
-                          <a href="tel://1234567920" id="phone">
-                            + 1235 2355 98
-                          </a>
+                          <a href="tel://1234567920" id="phone"></a>
                         </p>
                       </div>
                     </div>
@@ -72,9 +67,7 @@ function ContactUS() {
                       <div className="text">
                         <p>
                           <span>Email:</span>{" "}
-                          <a href="mailto:info@yoursite.com" id="email">
-                            info@yoursite.com
-                          </a>
+                          <a href="mailto:info@yoursite.com" id="email"></a>
                         </p>
                       </div>
                     </div>
@@ -86,10 +79,7 @@ function ContactUS() {
                       </div>
                       <div className="text">
                         <p>
-                          <span>Website</span>{" "}
-                          <a href="#" id="Website">
-                            yoursite.com
-                          </a>
+                          <span>Website</span> <a href="#" id="Website"></a>
                         </p>
                       </div>
                     </div>
@@ -203,8 +193,7 @@ function ContactUS() {
                     <div
                       className="info-wrap w-100 p-5 img"
                       style={{
-                        backgroundImage:
-                          'url("https://images.unsplash.com/photo-1631258961148-a075ef009251?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGF0dG8lMjBzaG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60")',
+                        backgroundImage: `url(${"PICTURES"})`,
                       }}
                     ></div>
                   </div>
