@@ -7,7 +7,6 @@ import Utility from "./New/components/Utility";
 import ContactInfo from "./New/components/ContactInfo";
 import { Route } from "react-router-dom";
 import WhitePaper from "./New/components/WhitePaper";
-import Department from "./New/components/Department";
 import ContactUS from "./New/components/ContactUS";
 import Cards from "./New/components/Cards";
 import HeaderName from "./New/components/HeaderName";
@@ -41,7 +40,6 @@ function App() {
       <HeaderSection />
       <HeaderName />
       <ContactInfo />
-      <Department />
       <ContactUS />
     </div>
   );

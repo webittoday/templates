@@ -31,15 +31,8 @@ function ContactInfo() {
         <div className="contact__card">
           <div className="contact__text__part">
             <img src={PIC[0]} />
-            <h1 id="prasiL">
-              $ <br></br>325000
-            </h1>
-            <h5 id="planeNameL">RECOVERED FOR OUR CLIENTS THIS YEAR</h5>
-            <p id="planeDescriptionL">
-              Sometimes you may find yourself in difficult situations and not be
-              able to defuse the situation without going to court.
-            </p>
-
+            <h1 id="prasiL"></h1> <h5 id="planeNameL"></h5>
+            <p id="planeDescriptionL"></p>
             <div className="top__text__button">
               <p></p>
               <div className="contact__button">
@@ -51,16 +44,10 @@ function ContactInfo() {
         </div>
         <div className="contact__cardd">
           <div className="contact__text__part">
-            <img src={img} />
-            <h1 id="prasiR">
-              $ <br></br>325000
-            </h1>
-            <h5 id="planeNameR">RECOVERED FOR OUR CLIENTS THIS YEAR</h5>
-            <p id="planeDescriptionR">
-              Sometimes you may find yourself in difficult situations and not be
-              able to defuse the situation without going to court.
-            </p>
-
+            <img src={PIC[1]} />
+            <h1 id="prasiR"></h1>
+            <h5 id="planeNameR"></h5>
+            <p id="planeDescriptionR"></p>
             <div className="top__text__button">
               <p></p>
               <div className="contact__button">

@@ -29,10 +29,7 @@ function ContactUS() {
                         <span className="fa fa-map-marker" />
                       </div>
                       <div className="text">
-                        <p id="Address">
-                          <span>Address:</span> 198 West 21th Street, Suite 721
-                          New York NY 10016
-                        </p>
+                        <p id="Address"></p>
                       </div>
                     </div>
                   </div>
@@ -43,10 +40,7 @@ function ContactUS() {
                       </div>
                       <div className="text">
                         <p>
-                          <span>Phone:</span>{" "}
-                          <a id="Phone" href="tel://1234567920">
-                            + 1235 2355 98
-                          </a>
+                          <span>Phone:</span> <a id="Phone"></a>
                         </p>
                       </div>
                     </div>
@@ -58,10 +52,7 @@ function ContactUS() {
                       </div>
                       <div className="text">
                         <p>
-                          <span>Email:</span>{" "}
-                          <a id="email" href="mailto:info@yoursite.com">
-                            info@yoursite.com
-                          </a>
+                          <span>Email:</span> <a id="email"></a>
                         </p>
                       </div>
                     </div>

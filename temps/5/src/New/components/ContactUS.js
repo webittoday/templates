@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import "../style/ContactUS.scss";
 import { AiOutlineRight } from "react-icons/ai";
 function ContactUS() {
@@ -193,7 +193,7 @@ function ContactUS() {
                     <div
                       className="info-wrap w-100 p-5 img"
                       style={{
-                        backgroundImage: `url(${"PICTURES"})`,
+                        backgroundImage: `url(${"PICTURES[0]"})`,
                       }}
                     ></div>
                   </div>
