@@ -14,8 +14,6 @@ questions = [
     {"QUESTION": "תוכן לדף אודות", "VARNAME": "paragraphAbout", "type": "textarea"},
     {"QUESTION": "תמונות לגלריה", "VARNAME": "galleryurl",
         "type": "image", "limit": 8, "dimension": "270x140"},
-    {"QUESTION": "תמונות לגלריה", "VARNAME": "galleryurlContact",
-        "type": "image", "limit": 8, "dimension": "270x140"},
     {"QUESTION": "כתובת אתר האינטרנט",
         "VARNAME": "contactWebSite", "type": "textarea"},
     {"QUESTION": "תמונות רקע", "VARNAME": "picContact",
