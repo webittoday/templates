@@ -19,8 +19,8 @@ function HomeSection() {
       >
         <div>
           {/* home header */}
-          <h1 id="headr">We are security service community.</h1>
-          <p id="subHeadr">keeping the good parts taking out the trash.</p>
+          <h1 id="headr"></h1>
+          <p id="subHeadr"></p>
           {/* home button */}
         </div>
       </div>
