@@ -24,8 +24,6 @@ questions = [
 ]
 
 
-]
-
 replacements = [
 
     {"KEYWORD": "INSERTNAME", "VARNAME": "business_name", "SRC": "public/index.html"},
