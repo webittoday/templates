@@ -4,6 +4,7 @@ questions = [
     {"QUESTION": " האירגון במשפט", "VARNAME": "header", "type": "textarea"},
     {"QUESTION": "משפט המתאר את האירגון",
      "VARNAME": "sortDescription", "type": "textarea"},
+  
     {"QUESTION": "סלוגן ראשון", "VARNAME": "subHederL", "type": "textarea"},
     {"QUESTION": "תיאור סלוגן ראשון",
         "VARNAME": "subHederDescriptionL", "type": "textarea"},
@@ -14,6 +15,7 @@ questions = [
         "VARNAME": "subHederDescriptionR", "type": "textarea"},
     {"QUESTION": "משפט קצר סלוגן שני ",
         "VARNAME": "subHederParagraphR", "type": "textarea"},
+ 
     {"QUESTION": "תמונות לגלריה", "VARNAME": "galleryurl1",
      "type": "image", "limit": 1, "dimension": "360x230"},
 
@@ -43,7 +45,6 @@ replacements = [
     {"KEYWORD": "GALLERYCONTACT", "VARNAME": "picContact",
         "SRC": "src/New/components/HeaderName.js"},
 
-
     {"KEYWORD": "GALLERY1", "VARNAME": "galleryurl1",
         "SRC": "src/New/components/ContactUS.js"},
     {"KEYWORD": "INSERTADDRESS", "VARNAME": "address",
@@ -53,16 +54,17 @@ replacements = [
     {"KEYWORD": "INSERTEMAIL", "VARNAME": "email",
         "SRC": "src/New/components/ContactUS.js"},
 
-    {"KEYWORD": "INSERTPRESL", "VARNAME": "business_name",
+    {"KEYWORD": "INSERTPRESL", "VARNAME": "subHederL",
         "SRC": "src/New/components/ContactInfo"},
-    {"KEYWORD": "INSERTPLANEL", "VARNAME": "slogan",
+    {"KEYWORD": "INSERTPLANEL", "VARNAME": "subHederDescriptionL",
         "SRC": "src/New/components/ContactInfo"},
-    {"KEYWORD": "INSERTDESCRIPTIONPLANEL", "VARNAME": "logourl",
+    {"KEYWORD": "INSERTDESCRIPTIONPLANEL", "VARNAME": "subHederParagraphL",
         "SRC": "src/New/components/ContactInfo"},
-    {"KEYWORD": "INSERTPRESR", "VARNAME": "business_name",
+    {"KEYWORD": "INSERTPRESR", "VARNAME": "subHederR",
         "SRC": "src/New/components/ContactInfo"},
-    {"KEYWORD": "INSERTPLANER", "VARNAME": "slogan",
+    {"KEYWORD": "INSERTPLANER", "VARNAME": "subHederDescriptionR",
         "SRC": "src/New/components/ContactInfo"},
-    {"KEYWORD": "INSERTDESCRIPTIONPLANER", "VARNAME": "logourl",
+    {"KEYWORD": "INSERTDESCRIPTIONPLANER", "VARNAME": "subHederParagraphR",
         "SRC": "src/New/components/ContactInfo"},
 ]
+
