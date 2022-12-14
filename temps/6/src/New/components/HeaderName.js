@@ -11,20 +11,19 @@ function HeaderName() {
     document.getElementById("sortDescription").innerHTML = "INSERTPRESENT";
   }, []);
 
+  const PICTURES = GALLERYCONTACT;
+
   return (
     <div className="headerName" id="headerName">
       <div className="header__logo__line">
         <div className="line"></div>
-        <img src={img} />
+        <img src={PICTURES[0]} />
         <div className="line"></div>
       </div>
       <h1>
-        <span id="header">Toughest Defense</span>
+        <span id="header"></span>
       </h1>
-      <p id="sortDescription">
-        Our lawyers will also represent you in civil litigation cases such as
-        divorce, child and spouse maintenance.
-      </p>
+      <p id="sortDescription"></p>
       <div>
         <div className="image__grid container">
           <div className="block">

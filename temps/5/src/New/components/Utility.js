@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../style/utility.scss";
 import { BsCheck } from "react-icons/bs";
 import img from "../images/about1.jpg";
