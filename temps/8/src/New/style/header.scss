@@ -1,0 +1,83 @@
+.home-Header {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(43, 40, 40, 0.568), rgba(10, 9, 9, 0.711)),
+    url('../images/bg-home.jpg') no-repeat center / cover;
+
+  .home-content {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+    div {
+      width: 1000px;
+
+      h1 {
+        color: white;
+        font-size: 60px;
+        font-weight: bolder;
+        text-transform: capitalize;
+      }
+
+      p {
+        color: white;
+        font-size: 20px;
+        // margin: 30px 0px;
+      }
+
+      button {
+        font-size: 17px;
+        letter-spacing: normal;
+        word-spacing: 0px;
+        margin: 0px;
+        padding: 7px 25px 7px 25px;
+        border:2px solid white;
+        border-radius: 100px;
+        background-color: transparent;
+        color: white;
+        width: auto;
+      }
+      button:hover{
+        background-color: white;
+        color: black;
+        transition: 0.2s;
+      }
+    }
+  }
+}
+// for the tablet responsiveness
+@media screen and (max-width: 800px) {
+  .home-Header {
+    .home-content{
+      div{
+        width: 500px;
+        h1{
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
+// mobile responsiveness
+@media screen and (max-width: 550px) {
+  .home-Header {
+    .home-content{
+      div{
+        width: 400px;
+        h1{
+          font-size: 30px;
+        }
+        p{
+          font-size: 20px;
+        }
+
+        button {
+          font-size: 15px;
+          padding: 3px 20px 3px 20px;
+          border:1px solid white;
+         
+        }
+      }
+    }
+  }
+}

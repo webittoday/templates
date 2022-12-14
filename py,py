@@ -1,0 +1,44 @@
+import requests,
+
+map = {
+    "appname": "demo6",
+    "tempid": "5",
+    "personal_info": {
+        "fullname": "Noam Globerman", 
+        "email": "noamg.j2@gmail.com", 
+        "cell": "+972503730945", 
+        "address": "מרגלית 3", 
+        "city": "מבשרת ציון", 
+        "facebook": "Noam Globerman",
+        "business_name": "המספרה של גייקוב",
+        "b_type": "מספרה"
+
+    },
+    "template_info": {
+
+        "title": "המספרה הכי טובה התספורות הכי טובות",
+        "paragraphAbout": "אם אתם רוצים לקבל תספורת ברמה המתקדמת ביותר עם אווירה ברמה גבוהה וייחודית. אתם מוזמנים לבוא בכל יום ולא תתחרטו.",
+        "logourl": "https://cdn.freebiesupply.com/logos/large/2x/barbershop-logo-svg-vector.svg",
+        "galleryurl": "https://i.ibb.co/ZhsW9yt/blob.png", "https://i.ibb.co/FzSzGj5/blob.png", "https://i.ibb.co/ZhsW9yt/blob.png", "https://i.ibb.co/FzSzGj5/blob.png", "https://i.ibb.co/ZhsW9yt/blob.png", "https://i.ibb.co/FzSzGj5/blob.png", "https://i.ibb.co/ZhsW9yt/blob.png", "https://i.ibb.co/FzSzGj5/blob.png"],
+        "titleSubCards": "קטע אינפורמטיבי",
+        "cartHeader1": "קטע אינפורמטיבי ראשון",
+        "cartHeader2": "פסקה אינפורמטיבית ראשונה",
+        "cartHeader3": "קטע אינפורמטיבי שלישי",
+        "cardParagraph1": "פסקה אינפורמטיבית שניה, היא הכי מטורפת שיש",
+        "cardParagraph2": "פסקה אינפורמטיבית שלישית",
+        "cardParagraph3": "וואו הפסקה השלישית הזאת מטורפת לגמרי",
+        "contactWebSite": "www.webittoday1.com"
+
+    },
+    "costum_dns": {
+        "dns": "webittoday1.com",
+        "done":"no"}
+}
+
+
+
+
+url = 'https://backend.webittoday.com/get_info'
+x = requests.post(url, json = map)
+
+print(x.text)
