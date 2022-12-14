@@ -1,5 +1,4 @@
 import { React, useEffect } from "react";
-
 import { ImPlay2 } from "react-icons/im";
 import { BsPhone } from "react-icons/bs";
 import { AiOutlineFlag, AiFillAppstore } from "react-icons/ai";
