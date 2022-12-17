@@ -1,9 +1,6 @@
 questions = [
 
     {"QUESTION": "תוכן לדף אודות", "VARNAME": "about", "type": "textarea"},
-    {"QUESTION": "תמונות רקע", "VARNAME": "sliderurl", "type": "image", "limit": 1, "dimension": "1920x950"},
-    {"QUESTION": "לוגו", "VARNAME": "logourl", "type": "image", "limit": 1, "dimension": "150x150"},
-    {"QUESTION": "תמונות לגלריה", "VARNAME": "galleryurl", "type": "image", "limit": 6, "dimension": "360x230"},
     {"QUESTION": "כותרת לקטע מידע ראשון", "VARNAME": "infotitle1", "type": "text"},
     {"QUESTION": "קטע מידע ראשון", "VARNAME": "info1", "type": "textarea"},
     {"QUESTION": "כותרת לקטע מידע שני", "VARNAME": "infotitle2", "type": "text"},
@@ -17,6 +14,9 @@ questions = [
     {"QUESTION": "שעות פתיחה בימי חמישי", "VARNAME": "thursday", "type": "text"},
     {"QUESTION": "שעות פתיחה בימי שישי", "VARNAME": "friday", "type": "text"},
     {"QUESTION": "שעות פתיחה בימי שבת", "VARNAME": "saturday", "type": "text"},
+    {"QUESTION": "תמונות רקע", "VARNAME": "sliderurl", "type": "image", "limit": 1, "dimension": "1920x950"},
+    {"QUESTION": "לוגו", "VARNAME": "logourl", "type": "image", "limit": 1, "dimension": "150x150"},
+    {"QUESTION": "תמונות לגלריה", "VARNAME": "galleryurl", "type": "image", "limit": 6, "dimension": "360x230"},
 
 ]
 
